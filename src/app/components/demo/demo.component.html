@@ -1,0 +1,15 @@
+<div class="demo">
+    demo class
+</div>
+
+<div [formGroup]="group">
+    <input type="text" formControlName="text">
+</div>
+
+<div>
+    <button (click)="submit()">Submit</button>
+</div>
+
+<div>
+    {{ group.value | json }}
+</div>
