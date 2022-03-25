@@ -42,10 +42,12 @@ module.exports = {
       // },
 
       shared: share({
-        "@angular/core": { singleton: true, strictVersion: false, requiredVersion: 'auto', eager: true },
-        "@angular/common": { singleton: true, strictVersion: false, requiredVersion: 'auto', eager: true },
-        "@angular/common/http": { singleton: true, strictVersion: false, requiredVersion: 'auto', eager: true },
-        "@angular/router": { singleton: true, strictVersion: false, requiredVersion: 'auto', eager: true },
+        "@angular/core": { singleton: true, strictVersion: false, requiredVersion: 'auto' },
+        "@angular/common": { singleton: true, strictVersion: false, requiredVersion: 'auto' },
+        "@angular/common/http": { singleton: true, strictVersion: false, requiredVersion: 'auto' },
+        "@angular/router": { singleton: true, strictVersion: false, requiredVersion: 'auto' },
+        "ngx-event-service": { singleton: true, strictVersion: false, requiredVersion: 'auto' },
+        "@labshare/base-ui-services": { singleton: true, strictVersion: false, requiredVersion: 'auto' },
 
         ...sharedMappings.getDescriptors()
       })

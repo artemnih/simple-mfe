@@ -20,7 +20,10 @@
     "@angular/platform-browser": "~13.2.0",
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
+    "@labshare/base-ui-services": "^1.2.68",
     "ngx-event-service": "^1.0.1",
+    "ngx-toastr": "^14.2.2",
+    "query-string": "^7.1.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
